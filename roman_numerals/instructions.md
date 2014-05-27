@@ -1,8 +1,6 @@
 ## About this Kata
 Taken from: http://codingdojo.org/cgi-bin/index.pl?KataRomanNumerals
-I wasn't there, but I believe this Kata was performed at XP2001 by Kent Beck. Here is [a video of Karl Scotland doing this Kata in Excel at agile 2008] Here is [a video of JonJagger doing this Kata in Ruby using CyberDojo]
-
-Difficulty - Easy. 
+Difficulty - Medium
 
 ## Problem Description
 
@@ -10,13 +8,13 @@ The Romans were a clever bunch. They conquered most of Europe and ruled it for h
 
 The Romans wrote numbers using letters - I, V, X, L, C, D, M. (notice these letters have lots of straight lines and are hence easy to hack into stone tablets)
 
-The Kata says you should write a function to convert from normal numbers to Roman Numerals: eg
+This kata says you should write a function to convert from normal (Arabic) numbers to Roman Numerals: eg
+  1 --> I
+  10 --> X
+  7 --> VII
+  etc.
 
-     1 --> I
-     10 --> X
-     7 --> VII
-etc.
-For a full description of how it works, take a look at [http://www.novaroma.org/via_romana/numbers.html]: which includes an implementation of the Kata in javascript.
+For a full description of how it works, take a look at http://www.novaroma.org/via_romana/numbers.html
 
 There is no need to be able to convert numbers larger than about 3000. (The Romans themselves didn't tend to go any higher)
 
@@ -30,17 +28,13 @@ You would not put more than one smaller number in front of a larger number to su
 
 You must separate ones, tens, hundreds, and thousands as separate items. That means that 99 is XCIX, 90 + 9, but never should be written as IC. Similarly, 999 cannot be IM and 1999 cannot be MIM.
 
-## Part II of the Kata
-
-Write a function to convert in the other direction, ie numeral to digit
-
 ## Clues
 
 - can you make the code really beautiful and highly readable?
 - does it help to break out lots of small named functions from the main function, or is it better to keep it all in one function?
 - if you don't know an algorithm to do this already, can you derive one using strict TDD?
 - does the order you take the tests in affect the final design of your algorithm?
-- Would it be better to work out an algorithm first before starting with TDD?
+- would it be better to work out an algorithm first before starting with TDD?
 - if you do know an algorithm already, can you implement it using strict TDD?
 - Can you think of another algorithm?
 - what are the best data structures for storing all the numeral letters? (I, V, D, M etc)

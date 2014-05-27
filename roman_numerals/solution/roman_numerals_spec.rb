@@ -1,5 +1,3 @@
-require 'pry'
-
 def arabic_to_roman(arabic)
   return '' if arabic.zero?
 
