@@ -50,6 +50,7 @@ Things that you can learn when you are solving the kata:
 
 Here's some basic rules that you should follow:
 - No searching for the answers (the whole practice will be pointless)
+- Take your time... really! It's about trying new things and learn. Rushing will defeat the whole process.
 - Don't focus on delivering the code, focus on trying new codings
 - Don't do things that you already know (at least not all of them)
 
