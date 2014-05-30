@@ -1,6 +1,6 @@
 require 'stringio'
 require 'rspec'
-require '../lib/formatter/judge_runner_formatter'
+require '../../lib/formatter/judge_runner_formatter'
 
 task :judge do
   err = StringIO.new
