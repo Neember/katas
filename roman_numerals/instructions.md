@@ -7,7 +7,7 @@ Wikipedia states "Modern Roman numerals are written by
 expressing each digit separately starting with the
 leftmost digit and skipping any digit with a value of zero."
 
-# Examples:
+# Examples
 
 1 ->    "I" | 10 ->    "X" | 100 ->    "C" | 1000 ->    "M"
 2 ->   "II" | 20 ->   "XX" | 200 ->   "CC" | 2000 ->   "MM"
@@ -23,3 +23,19 @@ leftmost digit and skipping any digit with a value of zero."
 2008 -> "MMVIII" (2000 -> "MM" + 8 -> "VIII")
   99 -> "XCIX"   (90 -> "XC" + 9 -> "IX")
   47 -> "XLVII"  (40 -> "XL" + 7 -> "VII")
+
+# Judging Instruction
+
+To judge if your script is working properly, you will create a function
+named `arabic_to_roman` which will receive a single positive integer parameter.
+
+```ruby
+arabic_to_roman(1) # => I
+arabic_to_roman(2008) # => MMVIII
+arabic_to_roman(47) # => XLVII
+```
+
+# How to judge your kata?
+
+After you have completed your kata, you can test if your kata works correctly by running
+`rake judge` within your kata directory.
