@@ -38,6 +38,12 @@ When you have a solution to the kata, you can run `rake judge` in the kata folde
 
 More information on the judging can be found in the instructions of each kata.
 
+## How to start?
+
+Clone the project in your own computer. eg `git clone https://github.com/Neember/katas`
+
+Go to `<fork_project_dir>/katas/` and go to the kata directory which you want to try!
+
 ## Ways to approach the katas
 
 > "It is not the destination, but the journey that matters." - Buddha
