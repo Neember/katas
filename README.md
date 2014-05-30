@@ -38,6 +38,10 @@ When you have a solution to the kata, you can run `rake judge` in the kata folde
 
 More information on the judging can be found in the instructions of each kata.
 
+Finally, solutions can be found in the `/solutions` folder.
+
+However, we highly discourage you from seeing the solutions except when you finished yours.
+
 ## How to start?
 
 Clone the project in your own computer. eg `git clone https://github.com/Neember/katas`
