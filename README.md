@@ -12,26 +12,31 @@ Katas are coding problems for you to solve. Through solving code katas, you will
 
 ## Using the kata
 
-Each kata is grouped in their own folder:
+Each kata is grouped in their own folder under `katas`:
 
 ```
-kata_1
-  |_ instructions.md
-  |_ code
-    |_ kata_spec.rb
-  |_ solution
-    |_ kata_spec.rb
-kata_2
-  |_ instructions.md
-  |_ code
-    |_ kata_spec.rb
-  |_ solution
-    |_ kata_spec.rb
+katas
+  |_ kata_1
+      |_ instructions.md
+      |_ rakefile.rb
+      |_ code
+        |_ answer.rb
+      |_ judge
+        |_ judge_spec.rb
+  |_ kata_2
+      |_ instructions.md
+      |_ rakefile.rb
+      |_ code
+        |_ answer.rb
+      |_ judge
+        |_ judge_spec.rb
 ```
 
-`instructions.md` is the kata and you can solve the kata in the `code/kata_spec.rb` file.
+`instructions.md` is the kata and you can solve the kata in the `code/answer.rb` file.
 
-After you have solved the kata, compare your solution to `solution/kata_spec.rb`!!!
+When you have a solution to the kata, you can run `rake judge` in the kata folder to see if your solution passed or not.
+
+More information on the judging can be found in the instructions of each kata.
 
 ## Ways to approach the katas
 
@@ -53,6 +58,26 @@ Here's some basic rules that you should follow:
 - Take your time... really! It's about trying new things and learn. Rushing will defeat the whole process.
 - Don't focus on delivering the code, focus on trying new codings
 - Don't do things that you already know (at least not all of them)
+
+## Adding Katas
+
+You can add more katas!
+
+From the project root, run `rake new KATA=<NewKataName>`,
+
+This will create a new directory (like above) named after your kata name in the katas directory.
+
+Thereafter, just edit the `instructions.md` in your kata folder and to add the judging in `/katas/<new_kata_name>/judge/judge_spec.rb` and you should all set.
+
+## Contributing Katas
+
+We welcome contributors to add more katas or to improve this project.
+
+Here's how to contribute:
+
+- Fork the project
+- Add your own kata
+- Send a pull request
 
 ## Final word
 
